@@ -1,11 +1,69 @@
 body {
   overflow-x: hidden;
 
+  &.bg-body-musperin{
+    background: #f0f4e3!important;
+  }
+
   &.staticpage {
     img {
       max-width: 100%;
     }
   }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: #89a24e!important;
+  &:hover{
+    color: #5b7c47!important;
+  }
+}
+
+.atom-btn-secondary{
+  background-color: #89a24e!important;
+  border-color: #89a24e!important;
+}
+
+.navbar-toggler{
+  background-color: #89a24e!important;
+  border-color: #89a24e!important;
+  color: white!important;
+}
+
+.atom-btn-secondary:hover,
+.atom-btn-secondary:focus{
+  background-color: #89a24e!important;
+  border-color: #89a24e!important;
+}
+
+.list-group-flush>.list-group-item-action:hover,
+.list-group-flush>.list-group-item-action:focus{
+  background-color: #cbdaa3!important;
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li a.dropdown-item:focus{
+  background-color: #cbdaa3!important;
+}
+
+.form-check-input:checked{
+  background-color: #86aa46!important;
+  border-color: #86aa46!important;
+}
+
+.atom-btn-white.active-primary.active{
+  background-color: #86aa46!important;
+  border-color: #86aa46!important;
+}
+
+a.text-primary,
+span.text-primary,
+.text-primary span{
+  color: #86aa46!important;
+}
+
+.text-success{
+  color: #86aa46!important;
 }
 
 header i.fa-2x {
@@ -97,13 +155,24 @@ header i.fa-2x {
 }
 
 .actions {
-  background-color: $secondary;
+  background-color: white!important;
+  border: 1px solid #ced4da!important;
   border-radius: $border-radius;
   padding: $spacer;
 
-  a,
-  button {
+  .atom-btn-outline-light,
+  .atom-btn-outline-success{
+    background-color: #86ad3a;
+    color: $white;
     @extend .text-wrap;
+  }
+
+  .atom-btn-outline-danger{
+    background-color: #dc3545;
+    color: $white;
+    &hover{
+      background-color: #c82333;
+    }
   }
 }
 

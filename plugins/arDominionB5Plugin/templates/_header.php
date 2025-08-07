@@ -10,16 +10,16 @@
 
 <?php if ($sf_user->isAdministrator() && '' === (string) QubitSetting::getByName('siteBaseUrl')) { ?>
   <div class="alert alert-warning rounded-0 text-center mb-0" role="alert">
-    <?php echo link_to(__('Please configure your site base URL'), 'settings/siteInformation', ['class' => 'alert-link']); ?>
+    <?php echo link_to(__('Please configure your site base URL'), 'settings/siteInformation', ['class' => 'alert-link'])  ; ?>
   </div>
 <?php } ?>
 
-<header id="top-bar" class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation" aria-label="<?php echo __('Main navigation'); ?>">
+<header id="top-bar" class="navbar navbar-expand-lg navbar-light bg-white" role="navigation" aria-label="<?php echo __('Main navigation'); ?>">
   <div class="container-fluid">
     <?php if (sfConfig::get('app_toggleLogo') || sfConfig::get('app_toggleTitle')) { ?>
       <a class="navbar-brand d-flex flex-wrap flex-lg-nowrap align-items-center py-0 me-0" href="<?php echo url_for('@homepage'); ?>" title="<?php echo __('Home'); ?>" rel="home">
         <?php if (sfConfig::get('app_toggleLogo')) { ?>
-          <?php echo image_tag('/plugins/arDominionB5Plugin/images/logo', ['alt' => __('AtoM logo'), 'class' => 'd-inline-block my-2 me-3', 'height' => '35']); ?>
+          <?php echo image_tag('/plugins/arDominionB5Plugin/images/logo-musperin', ['alt' => __('Museum Perkebunan Indonesia'), 'class' => 'd-inline-block my-2 me-5 ms-2', 'height' => '50']); ?>
         <?php } ?>
         <?php if (sfConfig::get('app_toggleTitle') && !empty(sfConfig::get('app_siteTitle'))) { ?>
           <span class="text-wrap my-1 me-3"><?php echo esc_specialchars(sfConfig::get('app_siteTitle')); ?></span>
