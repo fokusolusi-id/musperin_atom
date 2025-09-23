@@ -56,6 +56,17 @@
   </div>
 </header>
 
+<div class="bg-warning-subtle text-dark mb-4">
+  <div class="container-xl py-3">
+    <div class="d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center">
+        <i class="fas fa-file-alt me-2" aria-hidden="true"></i>
+        <div>To access the original file, please send a request to our archivists. <a href="mailto:archives@musperin.org" class="text-dark fw-bold"><u>Contact us</u></a> for assistance.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <?php if (sfConfig::get('app_toggleDescription') && !empty(sfConfig::get('app_siteDescription'))) { ?>
   <div class="bg-secondary text-white">
     <div class="container-xl py-1">
