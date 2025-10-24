@@ -56,7 +56,7 @@
   </div>
 </header>
 
-<div class="bg-warning-subtle text-dark mb-4">
+<div class="bg-secondary-subtle text-dark mb-4">
   <div class="container-xl py-3">
     <div class="d-flex align-items-center justify-content-between">
       <div class="d-flex align-items-center">
