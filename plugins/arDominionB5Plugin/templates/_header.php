@@ -61,7 +61,7 @@
     <div class="d-flex align-items-center justify-content-between">
       <div class="d-flex align-items-center">
         <i class="fas fa-file-alt me-2" aria-hidden="true"></i>
-        <div>To access the original file, please send a request to our archivists. <a href="mailto:archives@musperin.org" class="text-dark fw-bold"><u>Contact us</u></a> for assistance.</div>
+        <div>To access the original file, please send a request to our archivists. <a href="mailto:musperin@gmail.com" class="text-dark fw-bold"><u>Contact us</u></a> for assistance.</div>
       </div>
     </div>
   </div>
